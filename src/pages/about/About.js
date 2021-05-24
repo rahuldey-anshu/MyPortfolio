@@ -10,9 +10,9 @@ import "./About.css";
 const About = () => {
   return (
     <div id="about">
-      <div className="about">
+      <div className="about container-box1 ">
         <h1 className="pt-3 text-center font-details pb-3">About Me</h1>
-        <Container>
+        <Container >
           <Row className="pt-3 pb-5 align-items-center">
             {/* Profile picture */}
             <Col xs={12} md={6}>

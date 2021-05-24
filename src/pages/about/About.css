@@ -15,7 +15,13 @@
     font-size: .95rem;
     font-weight:500;
   }
-  /* .intended {
+  .intended {
     padding-left: 0%;
     padding-right: 0%;
-  } */
+  }
+
+  .font-details {
+    font-size: 3em;
+    font-weight: 500;
+    color: #231d5af8;
+  }

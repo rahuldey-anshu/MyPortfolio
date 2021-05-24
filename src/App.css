@@ -5,8 +5,17 @@ hr {
 }
 
 .container-box {
-  width: 80%;
+  width: 100%;
   background-color: transparent;
+  /* background-image:url('./assets/img/parallex/background.webp') ; */
+  position: relative;
+  z-index: 9;
+}
+
+.container-box1 {
+  width: 100%;
+  background-color: transparent;
+  background-image:url('./assets/img/parallex/background.webp') ;
   position: relative;
   z-index: 9;
 }
