@@ -11,7 +11,7 @@ import TitleMessage from "./components/title-message/TitleMessage"
 import About from "./pages/about/About"
 import Skills from "./pages/skills/Skills";
 
-
+import Experience from "./pages/experience/Experience"
 const App = () => {
   return (
     <div className="App" style={{ position: "relative" }}>
@@ -45,6 +45,15 @@ const App = () => {
           <Skills />
         </Slide>
       </Container>
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+
+            <Experience />
+          </Fade>
+        </Container>
+      </div>
     
       
     </div>
