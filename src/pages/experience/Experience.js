@@ -40,7 +40,7 @@ const Experience = () => {
                       Junior Full Stack Developer
                     </strong>
                     <br />
-                    <strong>Technology:</strong> Javascript , React JS, Redux, Node.js, Express, MongoDB
+                    <strong>Technology:</strong> Javascript , React JS, Redux , Node.js , Express.js , MongoDB , Git.
                     
                     <br />
                     <strong>Duration:</strong> Dec 2020 - Present
