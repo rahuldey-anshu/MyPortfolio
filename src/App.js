@@ -10,6 +10,7 @@ import MyNav from "./components/My-Navbar/MyNav"
 import TitleMessage from "./components/title-message/TitleMessage"
 import About from "./pages/about/About"
 import Skills from "./pages/skills/Skills";
+import Projects from "./components/project-section/Projects"
 
 import Experience from "./pages/experience/Experience"
 const App = () => {
@@ -54,6 +55,13 @@ const App = () => {
           </Fade>
         </Container>
       </div>
+
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <Projects />
+        </Slide>
+      </Container>
     
       
     </div>
